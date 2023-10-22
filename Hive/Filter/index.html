@@ -18,7 +18,7 @@
     
     
       
-        <title>Filter - YT Tech Wiki</title>
+        <title>卡尔曼滤波 - YT Tech Wiki</title>
       
     
     
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Filter
+              卡尔曼滤波
             
           </span>
         </div>
@@ -176,18 +176,6 @@
   
 
 
-  <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
-      关于我们
-    </a>
-  </li>
-
-      
-        
-  
-  
-
-
   
   
   
@@ -204,11 +192,23 @@
   
 
 
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      关于我们
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
   
   
   
     <li class="md-tabs__item">
-      <a href="../../Hadoop/Hadoop/" class="md-tabs__link">
+      <a href="../../Hadoop/PID/" class="md-tabs__link">
         Hadoop
       </a>
     </li>
@@ -218,46 +218,16 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../Hive/" class="md-tabs__link">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Hive
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../Spark/Spark/" class="md-tabs__link">
-        Spark
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../Flink/Flink/" class="md-tabs__link">
-        Flink
       </a>
     </li>
   
@@ -301,33 +271,18 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        关于我们
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
       
-      <label class="md-nav__link" for="__nav_2">
+      <label class="md-nav__link" for="__nav_1">
         数仓理论
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="数仓理论" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
+        <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
           数仓理论
         </label>
@@ -347,6 +302,21 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        关于我们
+      </a>
     </li>
   
 
@@ -380,8 +350,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Hadoop/Hadoop/" class="md-nav__link">
-        Hadoop
+      <a href="../../Hadoop/PID/" class="md-nav__link">
+        PID算法及优化
       </a>
     </li>
   
@@ -399,12 +369,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       <label class="md-nav__link" for="__nav_4">
         Hive
@@ -420,94 +392,105 @@
             
   
   
-  
-    <li class="md-nav__item">
-      <a href="../Hive/" class="md-nav__link">
-        Hive
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
     
-      
-      
-      
-
   
   
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
-      
-      <label class="md-nav__link" for="__nav_5">
-        Spark
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Spark" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          卡尔曼滤波
           <span class="md-nav__icon md-icon"></span>
-          Spark
         </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        卡尔曼滤波
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    卡尔曼滤波简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    为什么要使用卡尔曼滤波
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    状态观察器
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    最佳状态估计器
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    最佳状态估计器算法
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    非线性状态估计器
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simulink" class="md-nav__link">
+    如何在Simulink中使用卡尔曼滤波器
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simulink_1" class="md-nav__link">
+    如何在Simulink中使用扩展卡尔曼滤波器
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
           
             
   
   
   
     <li class="md-nav__item">
-      <a href="../../Spark/Spark/" class="md-nav__link">
-        Spark
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
-      
-      <label class="md-nav__link" for="__nav_6">
-        Flink
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Flink" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          Flink
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../Flink/Flink/" class="md-nav__link">
-        Flink
+      <a href="../HubFilter/" class="md-nav__link">
+        互补滤波
       </a>
     </li>
   
@@ -610,7 +593,7 @@
               
                 
                 
-                  <h1>Filter</h1>
+                  <h1>卡尔曼滤波</h1>
                 
                 <h2 id="_1">卡尔曼滤波简介</h2>
 <p>卡尔曼滤波器的作用是：通过输入不同的多种数据，融合出一个最佳的数据</p>
@@ -647,6 +630,39 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../../Hadoop/PID/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              PID算法及优化
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../HubFilter/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              互补滤波
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

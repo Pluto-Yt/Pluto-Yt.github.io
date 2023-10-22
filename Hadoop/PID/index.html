@@ -18,7 +18,7 @@
     
     
       
-        <title>PID - YT Tech Wiki</title>
+        <title>PID算法及优化 - YT Tech Wiki</title>
       
     
     
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              PID
+              PID算法及优化
             
           </span>
         </div>
@@ -176,18 +176,6 @@
   
 
 
-  <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
-      关于我们
-    </a>
-  </li>
-
-      
-        
-  
-  
-
-
   
   
   
@@ -204,11 +192,25 @@
   
 
 
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      关于我们
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
   
   
   
     <li class="md-tabs__item">
-      <a href="../Hadoop/" class="md-tabs__link">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Hadoop
       </a>
     </li>
@@ -224,40 +226,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Hive/Hive/" class="md-tabs__link">
+      <a href="../../Hive/Filter/" class="md-tabs__link">
         Hive
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../Spark/Spark/" class="md-tabs__link">
-        Spark
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../Flink/Flink/" class="md-tabs__link">
-        Flink
       </a>
     </li>
   
@@ -301,33 +271,18 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        关于我们
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
       
-      <label class="md-nav__link" for="__nav_2">
+      <label class="md-nav__link" for="__nav_1">
         数仓理论
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="数仓理论" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
+        <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
           数仓理论
         </label>
@@ -358,11 +313,28 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        关于我们
+      </a>
+    </li>
+  
+
     
-    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       <label class="md-nav__link" for="__nav_3">
         Hadoop
@@ -378,11 +350,140 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Hadoop/" class="md-nav__link">
-        Hadoop
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          PID算法及优化
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        PID算法及优化
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pid" class="md-nav__link">
+    常用PID算法：
+  </a>
+  
+    <nav class="md-nav" aria-label="常用PID算法：">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1pi" class="md-nav__link">
+    ①PI算法：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2pd" class="md-nav__link">
+    ②PD算法：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3pid" class="md-nav__link">
+    ③PID算法：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pid_1" class="md-nav__link">
+    增量式PID的优缺点：
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pid_2" class="md-nav__link">
+    PID优化方法：
+  </a>
+  
+    <nav class="md-nav" aria-label="PID优化方法：">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    ①抗积分饱和：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    ②不完全微分：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    ③微分先行：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4pid" class="md-nav__link">
+    ④带死区PID控制：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5pid" class="md-nav__link">
+    ⑤串级PID
+  </a>
+  
+    <nav class="md-nav" aria-label="⑤串级PID">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pid_3" class="md-nav__link">
+    为什么要用串级PID呢
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -422,92 +523,20 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Hive/Hive/" class="md-nav__link">
-        Hive
+      <a href="../../Hive/Filter/" class="md-nav__link">
+        卡尔曼滤波
       </a>
     </li>
   
 
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
-      
-      <label class="md-nav__link" for="__nav_5">
-        Spark
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Spark" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          Spark
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
   
   
   
     <li class="md-nav__item">
-      <a href="../../Spark/Spark/" class="md-nav__link">
-        Spark
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
-      
-      <label class="md-nav__link" for="__nav_6">
-        Flink
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Flink" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          Flink
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../Flink/Flink/" class="md-nav__link">
-        Flink
+      <a href="../../Hive/HubFilter/" class="md-nav__link">
+        互补滤波
       </a>
     </li>
   
@@ -656,7 +685,7 @@
               
                 
                 
-                  <h1>PID</h1>
+                  <h1>PID算法及优化</h1>
                 
                 <p><a href="https://bbs.huaweicloud.com/blogs/212153">Matlab动态PID仿真及PID知识梳理-云社区-华为云 (huaweicloud.com)</a></p>
 <p><a href="https://blog.csdn.net/as480133937/article/details/89508034?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-0&amp;spm=1001.2101.3001.4242">位置式PID与增量式PID区别浅析_Z小旋-CSDN博客_增量式pid</a></p>
@@ -840,6 +869,39 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../.." class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              关于我们
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../Hive/Filter/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              卡尔曼滤波
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

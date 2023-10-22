@@ -6,17 +6,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/Flink/Flink/</loc>
-         <lastmod>2023-10-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://Pluto-Yt.github.io/Flink/number1/</loc>
-         <lastmod>2023-10-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Pluto-Yt.github.io/Hadoop/Hadoop/</loc>
          <lastmod>2023-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -31,17 +21,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/Hive/Hive/</loc>
-         <lastmod>2023-10-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://Pluto-Yt.github.io/Hive/HubFilter/</loc>
-         <lastmod>2023-10-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Pluto-Yt.github.io/Kafka/Kafka/</loc>
          <lastmod>2023-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -52,11 +32,6 @@
     </url>
     <url>
          <loc>https://Pluto-Yt.github.io/Spark/AD20/</loc>
-         <lastmod>2023-10-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://Pluto-Yt.github.io/Spark/Spark/</loc>
          <lastmod>2023-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
