@@ -10,6 +10,8 @@ nav:
   - 关于我们: index.md
   - 数仓理论: 
       数仓理论: 数仓理论/数仓理论.md  
+  - MySQL:
+      MySQL: MySQL/SQL.md
   - Hadoop: 
       Hadoop: Hadoop/Hadoop.md  
   - Hive:
@@ -20,6 +22,8 @@ nav:
       Flink: Flink/Flink.md
   - Kafka:
       Kafka: Kafka/Kafka.md
+  - Python:
+      Python: Python/Python.md  
   # - 数学建模:
   #     # Matlab使用与安装: Matlab/Matlab.md
   # - 硬件设计:

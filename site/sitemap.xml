@@ -26,6 +26,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://Pluto-Yt.github.io/MySQL/SQL/</loc>
+         <lastmod>2023-10-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Pluto-Yt.github.io/Python/Python/</loc>
+         <lastmod>2023-10-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://Pluto-Yt.github.io/Spark/Spark/</loc>
          <lastmod>2023-10-22</lastmod>
          <changefreq>daily</changefreq>
