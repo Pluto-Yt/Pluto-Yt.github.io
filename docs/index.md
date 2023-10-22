@@ -1,13 +1,14 @@
-# 🔥** 欢迎来到3+1资料分享Wiki **
+# 🔥** 欢迎来到小杨同学的wiki **
 
--- 您可以通过 [https://github.com/cuit-tech-wiki/cuit-tech-wiki](https://github.com/cuit-tech-wiki/cuit-tech-wiki) 加入我们的Wiki资料库.
+-- 您可以通过 [https://github.com/Pluto-Yt/cuit-tech-wiki](https://github.com/Pluto-Yt/cuit-tech-wiki.git) 加入我们的Wiki资料库.
 
 ## 联系方式
 
-* `Github:` [TPO-tech-wiki](https://github.com/cuit-tech-wiki)   📚
+* `Github:` [Yang-tech-wiki](https://github.com/Pluto-Yt)   📚
+* `小🐷理姓名:` [Myy](Myy)   📚
 
 
-## 部分项目管理
+<!-- ## 部分项目管理
 
 * [基于HAL开发的STM32各模块库 [stm32F407]](https://github.com/cuit-tech-wiki/stm32F407)
 * [基于cubemx的STM32系列FreeRTOS+STEMWIN移植 [cubemx-FreeRTOS-emwin]](https://github.com/cuit-tech-wiki/cubemx-FreeRTOS-emwin)
