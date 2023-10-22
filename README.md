@@ -41,5 +41,5 @@ git push origin master
 
 
 
-将要添加至 Wiki 的 Markdown 文件保存至  **docs** 下的文件夹中，然后修改 `mkdocs.yml` 中的 **nav** 属性
+将要添加至 Wiki 的 Markdown 文件保存至  **docs** 下的文件夹中，然后修改 `mkdocs.yml` 中的 **nav** 属性 AA
 
