@@ -20,47 +20,47 @@ nav:
   - 3+1人物简介:
       衡水高材生: Person/number1.md
       
-theme:
-  name: null
-  custom_dir: mkdocs-material/material
+# theme:
+#   name: null
+#   custom_dir: mkdocs-material/material
 
-  # 404 page
-  static_templates:
-    - 404.html
+#   # 404 page
+#   static_templates:
+#     - 404.html
 
-  # Necessary for search to work properly
-  include_search_page: false
-  search_index_only: true
+#   # Necessary for search to work properly
+#   include_search_page: false
+#   search_index_only: true
 
-  # Default values, taken from mkdocs_theme.yml
-  language: zh
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: material/library
+#   # Default values, taken from mkdocs_theme.yml
+#   language: zh
+#   font:
+#     text: Roboto
+#     code: Roboto Mono
+#   favicon: assets/favicon.png
+#   icon:
+#     logo: material/library
 
-  features:
-    - navigation.tabs
-    - navigation.top
+#   features:
+#     - navigation.tabs
+#     - navigation.top
 
-  palette:
+#   palette:
     
-    # Light mode
-    - blue: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+#     # Light mode
+#     - blue: "(prefers-color-scheme: light)"
+#       scheme: default
+#       primary: indigo
+#       accent: indigo
+#       toggle:
+#         icon: material/toggle-switch-off-outline
+#         name: Switch to dark mode
 
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+#     # Dark mode
+#     - media: "(prefers-color-scheme: dark)"
+#       scheme: slate
+#       primary: blue
+#       accent: blue
+#       toggle:
+#         icon: material/toggle-switch
+#         name: Switch to light mode
