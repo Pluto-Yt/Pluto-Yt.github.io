@@ -1,6 +1,6 @@
 # 🔥** 欢迎来到3+1资料分享Wiki **
 
-<!-- 您可以通过 [https://github.com/cuit-tech-wiki/cuit-tech-wiki](https://github.com/cuit-tech-wiki/cuit-tech-wiki) 加入我们的Wiki资料库.
+-- 您可以通过 [https://github.com/cuit-tech-wiki/cuit-tech-wiki](https://github.com/cuit-tech-wiki/cuit-tech-wiki) 加入我们的Wiki资料库.
 
 ## 联系方式
 
