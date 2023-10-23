@@ -2,36 +2,32 @@ site_name: YT Tech Wiki
 site_url: https://Pluto-Yt.github.io/
 site_author: Pluto-Yt
 # Repository
-repo_name: Pluto-Yt/Pluto-Yt.github.io.git
-repo_url: https://github.com/Pluto-Yt/Pluto-Yt.github.io.git
+repo_name: Pluto-Yt lab
+repo_url: https://github.com/Pluto-Yt
 edit_uri: docs
 
 nav:
   - 关于我们: index.md
   - 技术文档: 
-      - 数仓理论: 
-          数仓理论: 技术文档/数仓理论.md  
-      - MySQL:
-          MySQL基础篇: 技术文档/SQL基础.md
-          MySQL高级篇: 技术文档/SQL进阶.md
-      - Hadoop: 
-          Hadoop: 技术文档/Hadoop.md  
-      - Hive:
-          Hive: 技术文档/Hive.md
-      - Spark:
-          Spark: 技术文档/Spark.md
-      - Flink:
-          Flink: 技术文档/Flink.md
-      - Kafka:
-          Kafka: 技术文档/Kafka.md
-      - Python:
-          Python: 技术文档/Python.md
-  # - 数学建模:
-  #     # Matlab使用与安装: Matlab/Matlab.md
-  # - 硬件设计:
-  #     # Altium Designer使用与安装: Hardware/AD20.md
-  # - 3+1人物简介:
-  #     # 衡水高材生: Person/number1.md
+    - 数仓理论: 
+        数仓理论: 技术文档/数仓理论.md  
+    - MySQL:
+        MySQL基础篇: 技术文档/SQL基础.md
+        MySQL高级篇: 技术文档/SQL进阶.md
+    - Hadoop: 
+        Hadoop: 技术文档/Hadoop.md  
+    - Hive:
+        Hive: 技术文档/Hive.md
+    - Spark:
+        Spark: 技术文档/Spark.md
+    - Flink:
+        Flink: 技术文档/Flink.md
+    - Kafka:
+        Kafka: 技术文档/Kafka.md
+    - Python:
+        Python: 技术文档/Python.md
+  # - 实习项目总结: 
+  #     新客爆品: 
       
 theme:
   name: null
