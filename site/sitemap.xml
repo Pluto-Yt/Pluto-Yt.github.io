@@ -2,47 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://Pluto-Yt.github.io/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/Flink/Flink/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Flink/</loc>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/Hadoop/Hadoop/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Hadoop/</loc>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/Hive/Hive/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Hive/</loc>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/Kafka/Kafka/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Kafka/</loc>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/MySQL/SQL/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Python/</loc>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/Python/Python/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/SQL%E5%9F%BA%E7%A1%80/</loc>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/Spark/Spark/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/SQL%E8%BF%9B%E9%98%B6/</loc>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Pluto-Yt.github.io/%E6%95%B0%E4%BB%93%E7%90%86%E8%AE%BA/%E6%95%B0%E4%BB%93%E7%90%86%E8%AE%BA/</loc>
-         <lastmod>2023-10-22</lastmod>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Spark/</loc>
+         <lastmod>2023-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Pluto-Yt.github.io/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/%E6%95%B0%E4%BB%93%E7%90%86%E8%AE%BA/</loc>
+         <lastmod>2023-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

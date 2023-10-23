@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Python语言入门](#python%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8)
+<!-- - [Python语言入门](#python%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8)
   - [环境](#%E7%8E%AF%E5%A2%83)
   - [变量与字符串](#%E5%8F%98%E9%87%8F%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2)
   - [常用数据结构](#%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
@@ -27,7 +27,7 @@
   - [异步IO](#%E5%BC%82%E6%AD%A5io)
   - [总结](#%E6%80%BB%E7%BB%93)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Python语言入门
 

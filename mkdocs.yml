@@ -8,22 +8,24 @@ edit_uri: docs
 
 nav:
   - 关于我们: index.md
-  - 数仓理论: 
-      数仓理论: 数仓理论/数仓理论.md  
-  - MySQL:
-      MySQL: MySQL/SQL.md
-  - Hadoop: 
-      Hadoop: Hadoop/Hadoop.md  
-  - Hive:
-      Hive: Hive/Hive.md
-  - Spark:
-      Spark: Spark/Spark.md
-  - Flink:
-      Flink: Flink/Flink.md
-  - Kafka:
-      Kafka: Kafka/Kafka.md
-  - Python:
-      Python: Python/Python.md  
+  - 技术文档: 
+      - 数仓理论: 
+          数仓理论: 技术文档/数仓理论.md  
+      - MySQL:
+          MySQL基础篇: 技术文档/SQL基础.md
+          MySQL高级篇: 技术文档/SQL进阶.md
+      - Hadoop: 
+          Hadoop: 技术文档/Hadoop.md  
+      - Hive:
+          Hive: 技术文档/Hive.md
+      - Spark:
+          Spark: 技术文档/Spark.md
+      - Flink:
+          Flink: 技术文档/Flink.md
+      - Kafka:
+          Kafka: 技术文档/Kafka.md
+      - Python:
+          Python: 技术文档/Python.md
   # - 数学建模:
   #     # Matlab使用与安装: Matlab/Matlab.md
   # - 硬件设计:
